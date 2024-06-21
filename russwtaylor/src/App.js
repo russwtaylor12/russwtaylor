@@ -38,7 +38,7 @@ function App() {
         <ThemeProvider theme={theme}>
             <AppBar position="fixed" sx={{ width: '100vw' }}>
                 <MyToolbar>
-                    <Typography variant="h6">My Portfolio</Typography>
+                    <Typography variant="h6">Russell Taylor</Typography>
                     {isMobile ? (
                         <>
                             <IconButton edge="end" color="inherit" aria-label="menu" onClick={handleDrawerToggle}>
@@ -85,11 +85,10 @@ function App() {
                     <section id="about">
                         <Typography variant="h4" gutterBottom>About Me</Typography>
                         <Box display="flex" justifyContent="center" mb={2}>
-                            <Avatar alt="Russell Taylor" src="public/headshot.png" sx={{ width: 200, height: 200 }} />
+                            <Avatar alt="Russell Taylor" src="russwtaylor/public/headshot.png" sx={{ width: 200, height: 200 }} />
                         </Box>
                         <Typography variant="body1" paragraph align={isMobile ? 'center' : 'left'}>
-                            Hello! I'm [Your Name], a passionate developer with experience in [your skills].
-                            I love creating web applications and learning new technologies.
+                            I am an experienced Salesforce Developer with over 6 years of expertise in designing and implementing customized Salesforce solutions. My passion for technology and problem-solving drives me to continuously innovate and optimize Salesforce environments for diverse business needs. With a strong foundation in Apex, Visualforce, Lightning Components, and integrations, I excel in creating seamless user experiences and robust, scalable systems. I thrive in dynamic environments, leveraging my analytical skills and attention to detail to deliver high-quality solutions that enhance business processes and drive growth.
                         </Typography>
                     </section>
                     <section id="projects">
