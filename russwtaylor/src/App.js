@@ -85,7 +85,7 @@ function App() {
                     <section id="about">
                         <Typography variant="h4" gutterBottom>About Me</Typography>
                         <Box display="flex" justifyContent="center" mb={2}>
-                            <Avatar alt="Your Name" src="your-photo-url.jpg" sx={{ width: 150, height: 150 }} />
+                            <Avatar alt="Russell Taylor" src="/static/headshot.png" sx={{ width: 200, height: 200 }} />
                         </Box>
                         <Typography variant="body1" paragraph align={isMobile ? 'center' : 'left'}>
                             Hello! I'm [Your Name], a passionate developer with experience in [your skills].
@@ -124,12 +124,12 @@ function App() {
                         <Grid container spacing={2}>
                             <Grid item xs={12} sm={4}>
                                 <Typography variant="body1" paragraph align={isMobile ? 'center' : 'left'}>
-                                    <Email /> <a href="mailto:your-email@example.com">your-email@example.com</a>
+                                    <Email /> <a href="mailto:russ@russwtaylor.com">russ@russwtaylor.com</a>
                                 </Typography>
                             </Grid>
                             <Grid item xs={12} sm={4}>
                                 <Typography variant="body1" paragraph align={isMobile ? 'center' : 'left'}>
-                                    <LinkedIn /> <a href="your-linkedin-profile" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                                    <LinkedIn /> <a href="https://www.linkedin.com/in/russelltaylor812/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
                                 </Typography>
                             </Grid>
                             <Grid item xs={12} sm={4}>
