@@ -85,7 +85,7 @@ function App() {
                     <section id="about">
                         <Typography variant="h4" gutterBottom>About Me</Typography>
                         <Box display="flex" justifyContent="center" mb={2}>
-                            <Avatar alt="Russell Taylor" src="%PUBLIC_URL%/headshot.png" sx={{ width: 200, height: 200 }} />
+                            <Avatar alt="Russell Taylor" src="public/headshot.png" sx={{ width: 200, height: 200 }} />
                         </Box>
                         <Typography variant="body1" paragraph align={isMobile ? 'center' : 'left'}>
                             Hello! I'm [Your Name], a passionate developer with experience in [your skills].
