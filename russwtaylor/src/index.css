@@ -6,6 +6,15 @@ body {
     color: #333;
 }
 
+a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .App {
     text-align: center;
 }
@@ -22,4 +31,31 @@ main {
 
 section {
     margin: 20px 0;
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 600px) {
+    .App-header {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        margin: 10px 0;
+    }
 }
