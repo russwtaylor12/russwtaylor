@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/russwtaylor/static/css/main.f855e6bc.css",
+    "main.js": "/russwtaylor/static/js/main.02176161.js",
+    "static/js/453.f434fbee.chunk.js": "/russwtaylor/static/js/453.f434fbee.chunk.js",
+    "static/media/logo.svg": "/russwtaylor/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/russwtaylor/index.html",
+    "main.f855e6bc.css.map": "/russwtaylor/static/css/main.f855e6bc.css.map",
+    "main.02176161.js.map": "/russwtaylor/static/js/main.02176161.js.map",
+    "453.f434fbee.chunk.js.map": "/russwtaylor/static/js/453.f434fbee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.02176161.js"
+  ]
+}
