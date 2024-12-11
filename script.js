@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Typed Text Effect
     const typedTextElement = document.querySelector('.typed-text');
-    const texts = ['Web Developer', 'Software Engineer', 'Creative Coder'];
+    const texts = ['Software Engineer', 'Salesforce Consultant', 'Creative Coder'];
     let textIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         setTimeout(type, typeSpeed);
     }
-
     type();
 
     // Mobile Navigation Toggle
